@@ -17,3 +17,20 @@
 
 ## Опублікований продукт
 Розроблену вебплатформу для агрегації оголошень про продаж автомобілів опубліковано та розгорнуто у мережі Інтернет. Доступ до системи здійснюється за посиланням: https://www.premiumauto.website/
+
+## Знімки екрану
+<img width="974" height="1303" alt="image" src="https://github.com/user-attachments/assets/6d2fa7ec-91ef-459a-a3f2-56cf60630ff4" />
+<img width="976" height="1432" alt="image" src="https://github.com/user-attachments/assets/ffeb838d-0829-4de7-991a-7fb97621f221" />
+<img width="974" height="1105" alt="image" src="https://github.com/user-attachments/assets/2cb0a6ca-5aa3-4d48-8552-91e6e8751b0d" />
+<img width="975" height="880" alt="image" src="https://github.com/user-attachments/assets/3c08e920-6011-4b08-90ba-395875606d38" />
+<img width="975" height="947" alt="image" src="https://github.com/user-attachments/assets/97bed79a-442e-460e-b66a-3fed3c0f904c" />
+<img width="975" height="708" alt="image" src="https://github.com/user-attachments/assets/1cad426c-c41b-40ef-a168-1b1b06c5a016" />
+<img width="977" height="787" alt="image" src="https://github.com/user-attachments/assets/8dcde7f1-fb57-484c-86ec-56988d55c6b0" />
+<img width="974" height="802" alt="image" src="https://github.com/user-attachments/assets/092ad9ab-c200-425e-98c0-7348f3f4a455" />
+
+
+
+
+
+
+
