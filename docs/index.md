@@ -16,7 +16,7 @@
 * WordPress CMS
 
 ## Опублікований продукт
-Розроблену вебплатформу для агрегації оголошень про продаж автомобілів опубліковано та розгорнуто у мережі Інтернет. Доступ до системи здійснюється за посиланням: https://www.premiumauto.website/
+Розроблену вебплатформу для агрегації оголошень про продаж автомобілів опубліковано та розгорнуто у мережі Інтернет. Доступ до системи здійснюється за посиланням: ([Premium Auto](https://www.premiumauto.website/)).
 
 ## Знімки екрану
 <img width="974" height="1303" alt="image" src="https://github.com/user-attachments/assets/6d2fa7ec-91ef-459a-a3f2-56cf60630ff4" />
@@ -27,10 +27,3 @@
 <img width="975" height="708" alt="image" src="https://github.com/user-attachments/assets/1cad426c-c41b-40ef-a168-1b1b06c5a016" />
 <img width="977" height="787" alt="image" src="https://github.com/user-attachments/assets/8dcde7f1-fb57-484c-86ec-56988d55c6b0" />
 <img width="974" height="802" alt="image" src="https://github.com/user-attachments/assets/092ad9ab-c200-425e-98c0-7348f3f4a455" />
-
-
-
-
-
-
-
