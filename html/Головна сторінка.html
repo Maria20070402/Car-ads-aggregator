@@ -96,7 +96,7 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 /*# sourceURL=global-styles-inline-css */
 </style>
 
-<link rel='stylesheet' id='font-awesome-min-css' href='https://www.premiumauto.website/wp-content/plugins/motors-car-dealership-classified-listings/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1781361672' media='all' />
+<link rel='stylesheet' id='font-awesome-min-css' href='https://www.premiumauto.website/wp-content/plugins/motors-car-dealership-classified-listings/nuxy/metaboxes/assets/vendors/font-awesome.min.css?ver=1781365001' media='all' />
 <link rel='stylesheet' id='motors-icons-css' href='https://www.premiumauto.website/wp-content/plugins/motors-car-dealership-classified-listings/assets/css/frontend/icons.css?ver=1.4.110' media='all' />
 <link rel='stylesheet' id='owl.carousel-css' href='https://www.premiumauto.website/wp-content/plugins/motors-car-dealership-classified-listings/assets/css/frontend/owl.carousel.min.css?ver=1.4.110' media='all' />
 <link rel='stylesheet' id='bootstrap-grid-css' href='https://www.premiumauto.website/wp-content/plugins/motors-car-dealership-classified-listings/assets/css/frontend/grid.css?ver=1.4.110' media='all' />
@@ -284,22 +284,22 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
 }
 
 .stm-inventory-items-per-page-wrap {
-    margin-top: 80px !important; /* опускає вниз */
+    margin-top: 80px !important; 
 }
 
 .remove-from-compare.add-to-compare {
     position: relative !important;
-    top: -50px;   /* підняти вверх */
-    left: 105px;  /* посунути вліво */
+    top: -50px;  
+    left: 105px;  
 }
 
 .remove-from-compare.add-to-compare {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-
-    padding: 12px px !important;  /* 🔵 збільшення "полоски" */
-    min-width: 220px;              /* ширина */
+		padding: 12px px !important;  
+	
+    min-width: 220px;     
     background-color: #1e73ff !important;
     border-radius: 6px;
     color: #fff !important;
@@ -314,13 +314,11 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
     font-size: 14px !important;
 }
 
-/* НЕ дозволяємо кнопці бути поверх слайдера */
 .car-action-unit.add-to-compare {
     position: relative !important;
     z-index: 2 !important;
 }
 
-/* гарантуємо, що фото завжди вище або окремий шар */
 .owl-carousel,
 .car-gallery,
 .listing-gallery {
@@ -328,14 +326,12 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
     z-index: 1;
 }
 
-/* якщо кнопка все ще лізе на фото — ховаємо overflow */
 .listing-car-item,
 .car-item,
 .owl-item {
     overflow: hidden;
 }
 
-/* контейнер фото */
 .stm-directory-grid-loop .image-inner {
     height: 180px !important;
     overflow: hidden !important;
@@ -352,7 +348,6 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
   overflow: visible !important;
 }
 
-/* саме фото */
 .stm-directory-grid-loop .image-inner img.img-responsive {
     width: 100% !important;
     height: 100% !important;
@@ -360,12 +355,10 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
     display: block !important;
 }
 
-/* Приховати іконку пошуку */
 .motors-icons-car_search {
     display: none !important;
 }
 
-/* Прибрати верхні відступи контенту */
 .site-content,
 .ast-container {
     padding-top: 0 !important;
@@ -380,7 +373,6 @@ article.page {
     padding-top: 0 !important;
 }
 
-/* Вирівнювання "Авто на сторінці" */
 .stm_per_page li {
     display: flex;
     align-items: center;
@@ -405,39 +397,32 @@ article.page {
     top: -15px;
 }
 
-/* Приховати англійський текст */
 .stm_label.heading-font {
     font-size: 0 !important;
 }
 
-/* Український текст */
 .stm_label.heading-font::before {
     content: "Авто на сторінці:";
     font-size: 14px;
     color: inherit;
 }
 
-/* Приховати Schedule Test Drive */
 a.car-action-unit.stm-schedule {
     display: none !important;
 }
 
-/* Приховати Quote by Phone */
 a.car-action-unit.set-vehicle-info[data-target="#get-car-price"] {
     display: none !important;
 }
 
-/* Приховати Trade-In */
 a.car-action-unit.set-vehicle-info[data-target="#trade-offer"] {
     display: none !important;
 }
 
-/* Приховати кнопку Поділитися */
 a.car-action-unit.stm-share {
     display: none !important;
 }
 
-/* Основний контейнер */
 .stm-user-private,
 .stm-user-private-main,
 .stm-user-private-settings-wrapper,
@@ -448,7 +433,6 @@ a.car-action-unit.stm-share {
     box-sizing: border-box !important;
 }
 
-/* Лівий сайдбар */
 .stm-user-private .col-md-3,
 .stm-user-private .stm-sticky-user-sidebar {
     flex: 0 0 320px !important;
@@ -456,20 +440,17 @@ a.car-action-unit.stm-share {
     min-width: 320px !important;
 }
 
-/* Права частина */
 .stm-user-private .col-md-9.col-sm-12 {
     flex: 1 !important;
     max-width: calc(100% - 320px) !important;
 }
 
-/* Сірий блок меню */
 .stm-user-private-sidebar {
     width: 100% !important;
     max-width: 320px !important;
     box-sizing: border-box !important;
 }
 
-/* Кнопки меню */
 .stm-user-private-sidebar .stm-actions-list a {
     display: flex;
     align-items: center;
@@ -490,7 +471,6 @@ a.car-action-unit.stm-share {
     flex: 0 0 auto !important;
 }
 
-/* Основний стиль */
 body.home {
     background: radial-gradient(circle at top, #0b0b0b 0%, #000 70%);
     color: #fff;
@@ -499,7 +479,6 @@ body.home {
     overflow-x: hidden;
 }
 
-/* Червоне світіння */
 body.home::before {
     content: "";
     position: fixed;
@@ -513,13 +492,11 @@ body.home::before {
     z-index: 0;
 }
 
-/* Анімація */
 @keyframes glowMove {
     from { transform: translate(0,0); }
     to { transform: translate(180px, 120px); }
 }
 
-/* HERO BLOCK */
 .sp-home {
     position: relative;
     z-index: 1;
@@ -531,12 +508,10 @@ body.home::before {
     gap: 80px;
 }
 
-/* Ліва частина */
 .sp-left {
     flex: 1.2;
 }
 
-/* Заголовок */
 .sp-left h1 {
     font-size: 60px;
     line-height: 1.05;
@@ -547,7 +522,6 @@ body.home::before {
     -webkit-text-fill-color: transparent;
 }
 
-/* Текст */
 .sp-left p {
     font-size: 19px;
     color: #bdbdbd;
@@ -557,16 +531,14 @@ body.home::before {
 }
 
 .sp-home {
-    padding-left: 3%;   /* було 6% → ближче до краю */
-    padding-right: 0;   /* щоб фото залишалось домінуючим */
+    padding-left: 3%; 
+    padding-right: 0; 
 }
 
-/* ще точніше вирівнювання тексту */
 .sp-left {
-    margin-left: -10px;  /* легкий “виїзд” вліво */
+    margin-left: -10px; 
 }
 
-/* Кнопка */
 .sp-btn {
     display: inline-block;
     padding: 16px 38px;
@@ -577,37 +549,31 @@ body.home::before {
     text-decoration: none;
 }
 
-/* FEATURES */
 .sp-features {
     padding-top: 30px;
     text-align: center;
 }
 
-/* Сітка */
 .sp-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-/* HERO — краща центровка і повітря */
 .sp-home {
     gap: 60px;
     align-items: center;
 }
 
-/* Заголовок — трохи менший і дорожчий вигляд */
 .sp-left h1 {
     font-size: 54px;
     letter-spacing: -1px;
 }
 
-/* Текст — чистіший інтервал */
 .sp-left p {
     opacity: 0.85;
 }
 
-/* Кнопка — плавніша */
 .sp-btn {
     transition: all 0.3s ease;
 }
@@ -617,7 +583,6 @@ body.home::before {
     box-shadow: 0 15px 35px rgba(255,0,0,0.25);
 }
 
-/* Фото — більш “premium float” ефект */
 .sp-right img {
     width: 100%;
     max-width: 850px;
@@ -630,18 +595,15 @@ body.home::before {
     transform: translateY(-35px) scale(1.02);
 }
 
-/* FEATURES — більше простору */
 .sp-features {
     padding: 90px 8%;
 }
 
-/* Заголовок секції */
 .sp-features h2 {
     font-size: 38px;
     margin-bottom: 40px;
 }
 
-/* Картки — рівний premium стиль */
 .sp-card {
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
@@ -656,18 +618,15 @@ body.home::before {
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
-/* Іконки */
 .sp-icon {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-/* GRID — більш рівні відступи */
 .sp-grid {
     gap: 18px;
 }
 
-/* АДАПТИВ (щоб не ламалось на телефоні) */
 @media(max-width: 900px) {
 
     .sp-home {
@@ -690,28 +649,25 @@ body.home::before {
 }
 
 .sp-home {
-    overflow: visible; /* дозволяє фото виходити за межі */
+    overflow: visible; 
 }
 
-/* контейнер правої частини */
 .sp-right {
     display: flex;
-    justify-content: flex-end; /* притискає вправо */
+    justify-content: flex-end; 
     align-items: center;
 }
 
-/* саме фото */
 .sp-right img {
-    width: 58vw;          /* робить фото дуже великим */
-    max-width: none;      /* прибирає обмеження */
+    width: 58vw;          
+    max-width: none;     
     height: auto;
-    margin-right: -6%;    /* витягує до самого краю */
+    margin-right: -6%;   
     transform: translateY(-30px);
-    border-radius: 24px 0 0 24px; /* “обрізаний” premium край */
+    border-radius: 24px 0 0 24px; 
     box-shadow: -40px 30px 80px rgba(0,0,0,0.6);
 }
 
-/* плавна поява всього контенту */
 .sp-home, .sp-features {
     animation: fadeUp 1s ease both;
 }
@@ -769,26 +725,21 @@ body.home {
 }
 
 .sp-home {
-    padding-top: 10px; /* було 30px → піднімає весь блок */
+    padding-top: 10px; 
 }
 
-/* текст трохи вище */
 .sp-left {
     transform: translateY(-35px);
 }
 
-/* фото вище */
 .sp-right img {
     transform: translateY(-70px) !important;
 }
 
-
-/* секція вище */
 .sp-features {
-    padding-top: 5px;  /* було 90px → ближче до hero */
+    padding-top: 5px;  
 }
 
-/* заголовок секції */
 .sp-features h2 {
     margin-top: -10px;
     font-size: 42px;
@@ -796,19 +747,15 @@ body.home {
     text-shadow: 0 0 25px rgba(255, 0, 0, 0.25);
 }
 
-
-/* картки світліші */
 .sp-card {
     background: rgba(255,255,255,0.06);
     border: 1px solid rgba(255,255,255,0.12);
 }
 
-/* заголовки карток */
 .sp-card h3 {
     color: #ffffff;
 }
 
-/* іконки більш яскраві */
 .sp-icon {
     filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.35));
 }
@@ -862,13 +809,11 @@ body.home {
     transition: all 0.3s ease;
 }
 
-/* hover glow */
 .sp-btn:hover {
     transform: translateY(-4px) scale(1.03);
     box-shadow: 0 20px 60px rgba(255,0,0,0.4);
 }
 
-/* light sweep */
 .sp-btn::before {
     content: "";
     position: absolute;
@@ -899,7 +844,6 @@ body.home {
     transition: 0.5s ease;
 }
 
-/* hover “преміум рух” */
 .sp-right img:hover {
     transform: translateY(-60px) scale(1.05);
     filter: contrast(1.05) saturate(1.1);
@@ -916,7 +860,7 @@ body.home {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    animation: none; /* прибираємо зайві рухи */
+    animation: none; 
 }
 
 .sp-left p {
@@ -970,7 +914,6 @@ body.home {
     border-radius: 8px;
 }
 
-/* Кнопка submit */
 #submit.submit {
     white-space: nowrap;
     padding: 10px 20px;
@@ -980,24 +923,20 @@ body.home {
     display: inline-block;
 }
 
-/* Приховати "Редагувати свій обліковий запис" */
 .logged-in-as a[href*="profile.php"] {
     display: none !important;
 }
 
-/* Прибрати старий текст */
 .logged-in-as {
     font-size: 0;
 }
 
-/* Повернути нормальний розмір */
 .logged-in-as a[href*="logout"],
 .logged-in-as .required-field-message,
 .logged-in-as::before {
     font-size: 16px;
 }
 
-/* Власний текст */
 .logged-in-as::before {
     content: "Ви увійшли як admin. ";
 }
@@ -1024,7 +963,6 @@ body.home {
     line-height: 1.7;
 }
 
-/* GRID */
 .sp-brands-grid {
     display: flex;
     justify-content: center;
@@ -1032,7 +970,6 @@ body.home {
     flex-wrap: wrap;
 }
 
-/* CARD */
 .sp-brand-card {
     padding: 18px 40px;
     border-radius: 14px;
@@ -1056,7 +993,6 @@ body.home {
     box-shadow: 0 25px 60px rgba(0,0,0,0.6);
 }
 
-/* легкий фон-акцент */
 .sp-brands-intro::before {
     content: "";
     position: absolute;
@@ -1070,13 +1006,11 @@ body.home {
     z-index: 0;
 }
 
-/* блок брендів */
 .sp-brands-intro {
     position: relative;
     margin-top: -160px;
 }
 
-/* переваги */
 .sp-features {
     position: relative;
     margin-top: -10px;
@@ -1090,7 +1024,6 @@ body.home {
     margin-top: -80px;
 }
 
-/* текст */
 .sp-brands-text h2 {
     font-size: 38px;
     color: #fff;
@@ -1112,7 +1045,6 @@ body.home {
     line-height: 1.7;
 }
 
-/* GRID */
 .sp-brands-grid {
     display: grid;
 
@@ -1125,7 +1057,6 @@ body.home {
     margin: 0 auto;
 }
 
-/* CARD */
 .sp-brand-card {
     background: rgba(255,255,255,0.04);
 
@@ -1140,7 +1071,6 @@ body.home {
     transition: all 0.35s ease;
 }
 
-/* hover */
 .sp-brand-card:hover {
     transform: translateY(-10px);
 
@@ -1151,7 +1081,6 @@ body.home {
         0 0 25px rgba(255,0,0,0.08);
 }
 
-/* logo */
 .sp-brand-card img {
     width: 40px;
     height: 40px;
@@ -1165,7 +1094,6 @@ body.home {
     opacity: 0.95;
 }
 
-/* title */
 .sp-brand-card h3 {
     color: #fff;
 
@@ -1176,7 +1104,6 @@ body.home {
     margin: 0;
 }
 
-/* mobile */
 @media(max-width: 900px) {
 
     .sp-brands-grid {
@@ -1188,13 +1115,11 @@ body.home {
     }
 }
 
-/* загальний блок */
 .sp-brands-intro {
     padding: 40px 8% 10px;
     text-align: center;
 }
 
-/* текст */
 .sp-brands-text h2 {
     font-size: 38px;
     color: #fff;
@@ -1209,12 +1134,10 @@ body.home {
     line-height: 1.7;
 }
 
-/* використовуємо ТУ Ж СІТКУ що в перевагах */
 .sp-brands-grid {
     margin-top: 10px;
 }
 
-/* робимо бренди як features cards */
 .sp-brand-card {
     display: flex;
     flex-direction: column;
@@ -1227,7 +1150,6 @@ body.home {
     cursor: pointer;
 }
 
-/* логотип */
 .sp-brand-card img {
     width: 55px;
     height: 55px;
@@ -1237,9 +1159,7 @@ body.home {
     transition: 0.3s ease;
 }
 
-/* назва */
 .sp-brand-card h
-
 .motors-icons-car_search {
     display: none !important;
 }
@@ -1388,7 +1308,6 @@ body.home::before {
     border-left: 2px solid rgba(255,0,0,0.35);
     padding-left: 16px;
 }
-
 
 .sp-btn {
     display: inline-block;
@@ -1542,17 +1461,14 @@ body.home::before {
     margin: 0;
 }
 
-/* hover як у переваг */
 .sp-brand-card:hover img {
     transform: scale(1.15);
     filter: drop-shadow(0 0 12px rgba(255,0,0,0.5));
 }
 
-/* Приховати блок автора в оголошеннях */
 .stm-user-main-info-c {
     display: none !important;
 }
-
 
 .premiumauto-dealer-button-wrap {
     width: 100%;
@@ -1564,34 +1480,23 @@ body.home::before {
     display: block;
     width: 100%;
     text-align: center;
-
     padding: 15px 24px;
-
     background: linear-gradient(135deg, #e00000, #8b0000);
-
     color: #fff !important;
-
     font-size: 16px;
     font-weight: 700;
-
     border-radius: 10px;
-
     text-decoration: none !important;
-
     transition: all 0.3s ease;
-
     box-shadow: 0 10px 25px rgba(255,0,0,0.18);
 }
 
 .premiumauto-dealer-button:hover {
     transform: translateY(-2px);
-
     background: linear-gradient(135deg, #ff1a1a, #a30000);
-
     box-shadow: 0 15px 35px rgba(255,0,0,0.28);
 }
 
-/* початковий стан */
 .reveal {
     opacity: 0;
     transform: translateY(60px);
@@ -1601,7 +1506,6 @@ body.home::before {
         transform 0.9s ease;
 }
 
-/* коли елемент з'явився */
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
@@ -1665,14 +1569,12 @@ html, body {
     width: 100%;
 }
 
-/* Анімація карток */
 .sp-card,
 .sp-brand-card {
     transition: all 0.35s ease;
     cursor: pointer;
 }
 
-/* Ефект наведення */
 .sp-card:hover,
 .sp-brand-card:hover {
     transform: translateY(-12px) scale(1.03);
@@ -1682,14 +1584,12 @@ html, body {
         0 0 25px rgba(255, 0, 0, 0.2);
 }
 
-/* Анімація іконок та логотипів */
 .sp-card:hover .sp-icon,
 .sp-brand-card:hover img {
     transform: scale(1.15);
     transition: all 0.35s ease;
 }
 
-/* Плавність для іконок */
 .sp-icon,
 .sp-brand-card img {
     transition: all 0.35s ease;
@@ -1783,7 +1683,6 @@ html, body {
 
 @media (max-width: 768px) {
 
-    /* розкриваємо sp-left, щоб h1 став окремим елементом flex */
     .sp-left {
         display: contents;
     }
@@ -1794,27 +1693,22 @@ html, body {
         align-items: center;
     }
 
-    /* 1. заголовок */
     .sp-left h1 {
         order: 1;
     }
 
-    /* 2. фото (після заголовку) */
     .sp-right {
         order: 2;
     }
 
-    /* 3. текст */
     .sp-left p {
         order: 3;
     }
 
-    /* 4. кнопка */
     .sp-btn {
         order: 4;
     }
 
-    /* і ОБОВʼЯЗКОВО вимкнути всі анімації */
     .sp-right img {
         animation: none !important;
         transform: none !important;
@@ -1859,25 +1753,21 @@ html, body {
 
 @media (max-width: 768px) {
 
-    /* контейнер блоку авто */
     .car-meta-top {
         display: flex !important;
         flex-direction: column !important;
         align-items: flex-start !important;
     }
 
-    /* фото завжди перше */
     .compare-car-visible {
         order: 1 !important;
     }
 
-    /* назва під фото */
     .car-title {
         order: 2 !important;
         margin-top: 8px !important;
     }
 
-    /* ціна під назвою */
     .price {
         order: 3 !important;
         margin-top: 5px !important;
@@ -1886,7 +1776,6 @@ html, body {
 
 @media (max-width: 768px) {
 
-    /* головний контейнер — прибираємо overflow */
     .stm-user-private .container {
         width: 100% !important;
         overflow-x: hidden !important;
@@ -1894,38 +1783,32 @@ html, body {
         padding-right: 10px;
     }
 
-    /* рядки Bootstrap — фікс переповнення */
     .stm-user-private .row {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
 
-    /* ліве меню (сіра панель) */
     .stm-user-private-sidebar {
         width: 100% !important;
         min-height: auto !important;
         margin-bottom: 15px;
     }
 
-    /* контент справа */
     .stm-user-private-main {
         width: 100% !important;
     }
 
-    /* картки авто */
     .stm_listing_edit_car {
         width: 100% !important;
         margin-bottom: 15px;
         box-sizing: border-box;
     }
 
-    /* зображення не виходять за межі */
     .image-inner img {
         max-width: 100% !important;
         height: auto !important;
     }
 
-    /* прибираємо “виїзд” контенту вправо */
     body {
         overflow-x: hidden !important;
     }
@@ -1946,12 +1829,10 @@ html, body {
 	
 @media (max-width:768px){
 
-    /* Зменшуємо ширину області з оголошеннями */
     .stm-user-private .container{
         min-width:720px !important;
     }
 
-    /* Фото */
     .listing-list-loop .image{
         width:180px !important;
     }
@@ -1962,12 +1843,10 @@ html, body {
         height:auto !important;
     }
 
-    /* Контент */
     .listing-list-loop .content{
         width:500px !important;
     }
 
-    /* Характеристики */
     .meta-middle-unit{
         width:120px !important;
     }
@@ -1975,7 +1854,6 @@ html, body {
 	
 @media (max-width:768px){
 
-    /* Ціна завжди зверху */
     .listing-list-loop .meta-top{
         display:flex !important;
         flex-direction:column !important;
@@ -1992,7 +1870,6 @@ html, body {
         white-space:nowrap !important;
     }
 
-    /* Назва авто під ціною */
     .listing-list-loop .title{
         width:100% !important;
         clear:both !important;
@@ -2010,7 +1887,7 @@ html, body {
 
 @media (max-width: 768px) {
   .single-car-prices {
-    margin-top: -60px; /* підбери значення */
+    margin-top: -60px; 
   }
 }
 	
@@ -2028,7 +1905,7 @@ html, body {
 	
 @media (max-width: 768px) {
   h2.title {
-    margin-top: 15px; /* підбери значення */
+    margin-top: 15px; 
   }
 }
 	
@@ -2067,7 +1944,6 @@ html, body {
 	
 @media (max-width: 768px) {
 
-    /* гарантуємо що вся картка не випускає елементи */
     .listing-car-item,
     .car-listing-item,
     .car-item {
@@ -2075,7 +1951,6 @@ html, body {
         position: relative;
     }
 
-    /* кнопка першоджерела не повинна бути поверх фото */
     .premiumauto-dealer-button-wrap {
         position: relative !important;
         z-index: 5 !important;
@@ -2083,13 +1958,11 @@ html, body {
         display: block;
     }
 
-    /* якщо тема зробила absolute */
     .premiumauto-dealer-button {
         position: relative !important;
         display: inline-flex !important;
     }
 
-    /* слайдер не повинен виносити елементи */
     .owl-carousel,
     .listing-gallery {
         overflow: hidden !important;
@@ -2110,14 +1983,12 @@ span.remove-from-compare.add-to-compare {
 
 @media (max-width: 768px) {
 
-  /* робимо контейнер вертикальним */
   .listing-car-item-meta .car-meta-top {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
   }
 
-  /* 1. Назва авто — перша */
   .listing-car-item-meta .car-title {
     order: 1 !important;
 
@@ -2125,12 +1996,11 @@ span.remove-from-compare.add-to-compare {
     font-size: 16px;
     line-height: 1.3;
 
-    white-space: normal !important;   /* дозволяє перенос */
+    white-space: normal !important;  
     word-break: break-word;
     margin-bottom: 5px;
   }
 
-  /* 2. Ціна — під назвою */
   .listing-car-item-meta .price {
     order: 2 !important;
 
@@ -2138,7 +2008,6 @@ span.remove-from-compare.add-to-compare {
     text-align: left !important;
   }
 
-  /* вирівнюємо саму ціну */
   .listing-car-item-meta .normal-price {
     font-size: 16px;
     font-weight: 700;
@@ -2150,24 +2019,23 @@ span.remove-from-compare.add-to-compare {
     display: flex !important;
     flex-direction: column !important;
 
-    min-height: 100px; /* було 90px → трохи більше простору */
-    padding-top: 8px;  /* 🔥 опускає весь блок вниз */
+   min-height: 100px; 
+    padding-top: 8px;  
   }
-
+	
   .listing-car-item-meta .car-title {
     order: 1 !important;
 
     min-height: 42px;
     line-height: 1.3;
-
-    margin-top: 6px; /* 🔥 опустили назву */
+		
+    margin-top: 6px; 
     margin-bottom: 6px;
   }
 
   .listing-car-item-meta .price {
     order: 2 !important;
-
-    margin-top: 6px; /* 🔥 опустили ціну */
+    margin-top: 6px; 
   }
 
   .listing-car-item-meta .normal-price {
@@ -2188,7 +2056,7 @@ span.remove-from-compare.add-to-compare {
 @media (max-width: 767px) {
     .stm-view-by {
         position: relative !important;
-        top: 10px; /* вниз */
+        top: 10px; 
     }
 }
 	
@@ -2227,8 +2095,6 @@ span.remove-from-compare.add-to-compare {
         display: none !important;
     }
 }
-	
-
 </style>
 <style id="core-block-supports-inline-css">
 .wp-container-core-social-links-is-layout-b192c3d7{justify-content:flex-start;}.wp-container-core-columns-is-layout-7387b849{flex-wrap:nowrap;}
@@ -2370,15 +2236,13 @@ class="post-3555 page type-page status-publish ast-article-single" id="post-3555
 
         </div>
 
-        <!-- RIGHT -->
         <div class="sp-right">
             <img decoding="async" src="https://www.premiumauto.website/wp-content/uploads/2026/05/BMW-vs-Audi-vs-Mercedes-Benz_-Which-Brand-is-The-Best-1110x577-1.webp" alt="Premium Car">
         </div>
 
     </div>
 
-
-    <!-- 🚗 PREMIUM BRANDS -->
+		
     <section class="sp-brands-intro">
 
         <div class="sp-brands-text">
@@ -2416,7 +2280,6 @@ class="post-3555 page type-page status-publish ast-article-single" id="post-3555
     </section>
 
 
-    <!-- 🔥 FEATURES -->
     <section class="sp-features">
 
         <h2>Переваги платформи</h2>
@@ -2488,7 +2351,7 @@ class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemsco
 </section><section id="block-82" class="widget widget_block">
 <ul class="wp-block-social-links aligncenter is-content-justification-left is-layout-flex wp-container-core-social-links-is-layout-b192c3d7 wp-block-social-links-is-layout-flex"><li class="wp-social-link wp-social-link-instagram wp-block-social-link"><a href="https://www.instagram.com/premiumauto.website/?utm_source=ig_web_button_share_sheet" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Instagram</span></a></li>
 
-<li class="wp-social-link wp-social-link-mail wp-block-social-link"><a href="mailto:pr&#101;mi&#117;&#109;&#097;&#117;&#116;o&#046;w&#101;&#098;&#115;i&#116;e&#064;&#103;ma&#105;l.&#099;om" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Пошта</span></a></li></ul>
+<li class="wp-social-link wp-social-link-mail wp-block-social-link"><a href="mailto:&#112;&#114;&#101;m&#105;um&#097;&#117;to&#046;&#119;&#101;&#098;&#115;i&#116;e&#064;gm&#097;&#105;&#108;&#046;&#099;om" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19,5H5c-1.1,0-2,.9-2,2v10c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2V7c0-1.1-.9-2-2-2zm.5,12c0,.3-.2.5-.5.5H5c-.3,0-.5-.2-.5-.5V9.8l7.5,5.6,7.5-5.6V17zm0-9.1L12,13.6,4.5,7.9V7c0-.3.2-.5.5-.5h14c.3,0,.5.2.5.5v.9z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Пошта</span></a></li></ul>
 </section>		</aside>
 						</div>
 											<div class="site-footer-above-section-2 site-footer-section site-footer-section-2">
@@ -3002,17 +2865,14 @@ jQuery(document).ready(function($){
     <script>
     document.addEventListener('DOMContentLoaded', function () {
 
-        // які блоки анімувати
         const elements = document.querySelectorAll(
             '.sp-card, .sp-brand-card, .sp-left, .sp-right, .sp-features h2, .sp-brands-text'
         );
 
-        // додаємо reveal
         elements.forEach(el => {
             el.classList.add('reveal');
         });
 
-        // функція перевірки
         function revealOnScroll() {
 
             const windowHeight = window.innerHeight;
@@ -3021,7 +2881,6 @@ jQuery(document).ready(function($){
 
                 const elementTop = el.getBoundingClientRect().top;
 
-                // коли елемент входить в екран
                 if (elementTop < windowHeight - 100) {
                     el.classList.add('active');
                 }
@@ -3029,10 +2888,8 @@ jQuery(document).ready(function($){
             });
         }
 
-        // запуск
         revealOnScroll();
 
-        // під час скролу
         window.addEventListener('scroll', revealOnScroll);
 
     });
@@ -3044,12 +2901,10 @@ document.addEventListener("submit", function(e){
     const form = e.target;
     if (!form || !form.matches("form")) return;
 
-    // 🔥 тільки сторінка account (Motors)
     if (!window.location.pathname.includes("/account/")) return;
 
     let hasError = false;
 
-    // 🔥 ВСІ поля (Motors використовує кастомні input)
     let inputs = form.querySelectorAll("input, textarea, select");
 
     inputs.forEach(input => {
@@ -3058,18 +2913,15 @@ document.addEventListener("submit", function(e){
 
         let value = (input.value || "").trim();
 
-        // ❌ reset
         input.style.border = "";
         input.style.boxShadow = "";
 
-        // ❌ пусті поля → ЧЕРВОНА РАМКА
         if (value === "") {
             input.style.border = "2px solid red";
             input.style.boxShadow = "0 0 8px rgba(255,0,0,0.5)";
             hasError = true;
         }
 
-        // ✉️ email перевірка (якщо є email поле)
         if (
             input.name?.toLowerCase().includes("email") ||
             input.type === "email"
@@ -3089,7 +2941,6 @@ document.addEventListener("submit", function(e){
         e.preventDefault();
         e.stopImmediatePropagation();
 
-        // 🔥 Motors message container
         let msg =
             form.querySelector(".stm-validation-message") ||
             form.querySelector(".stm-message") ||
